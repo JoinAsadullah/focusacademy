@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Science Academy</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="parentcontainer">
+        <div class="hero">
+            <div class="titlebar">
+                
+                <div id="menuu"><img  style="height:20px; width:27px;" class="ham" src="images/Ham.png" alt="Menu"></div>
+                <img src="images/Logo PSD.png" alt="Logo Focus Academy">
+                <div class="title"><h1>Education system </h1><p class="csl">Creating standard learning</p></div>
+                <nav id="nav">
+                    <ul>
+                        <img id="crs" class="cross" src="images/x.png" style="height:20px; width:22px;">
+                        <li><a id="about" href="#c1">About</a></li>
+                        <li><a id="about1" href="https://facebook.com/FOCUS-Science-Academy-Bahawalnagar-100562622683911/" target="_blank">Updates(fb)</a></li>
+                        <li><a id="about2" href="#c3">Directions</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="hello">
+                    <div calss="sp">
+                            <h3 class="h3">Specialized classes</h3>
+                            <ul>
+                                <li>Intermediate<br>(11th-12th)</li>
+                                <li>Matriculation<br>(9th-10th)</li>
+                                <li>Pre-Secondary<br>(6th-8th)</li>
+                                <Li>Primary<br>(Nur-5th)</Li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <h3 class="h4">Features</h3>
+            <div class="features">
+                <container class="a">
+                    <h3 class="h5">Academic</h3>
+                    <div>
+                        <ul>
+                            <li>Full book coverage         </li>
+                            <li>Extra Sunday classes       </li>
+                            <li>Digital media based classes</li>
+                            <li>Subject specialist teachers</li>
+                            <li>Weekly test system        </li>
+                        </ul>
+                    </div>
+                </container>
+                <container class="b">
+                    <h3 class="h5">Campus</h3>
+                    <div>
+                        <ul>
+                            <li>Limited student strength    </li>
+                            <li>Air conditioned rooms       </li>
+                            <li>Furnished classes           </li>
+                            <li>CCTV Security               </li>
+                            <li>Leading franchise system    </li>
+                        </ul>
+                    </div>
+                </container>
+                <container class="c">
+                    <h3 class="h5">Management</h3>
+                    <div class="manage">
+                        <ul>
+                            <li>Attendence reporting         </li>
+                            <li>Performance tracking         </li>
+                            <li>Student data management      </li>
+                            <li>Prioritized learning system  </li>
+                            <li>Moral and discipline         </li>
+                        </ul>
+                    </div>
+                </container>
+            </div>
+        </div>
+        <div class="oha">
+            <h3>Opening Hours</h3>
+            <ul>
+                <li>Monday:	9:00 am - 1:30 pm, 5:30 - 8:30 pm</li>
+                <li>Tuesday:	9:00 am - 1:30 pm, 5:30 - 8:30 pm</li>
+                <li>Wednesday:	9:00 am - 1:30 pm, 5:30 - 8:30 pm</li>
+                <li>Thursday:	9:00 am - 1:30 pm, 5:30 - 8:30 pm</li>
+                <li>Friday:	9:00 am - 1:30 pm, 5:30 - 8:30 pm</li>
+                <li>Saturday:	9:00 am - 1:30 pm, 5:30 - 8:30 pm</li>
+                <li>Sunday:	9:00 am - 1:30 pm, 5:30 - 8:30 pm</li>
+            </ul>
+        </div>
+        <div class="oha">
+            <h3><a name="c1">About</a></h3>
+            <p>
+                "FOCUS Education System is a leading institute of academic services.
+                The base of the institution is upon the moto "Creating Standard Learning".
+                Under this motive, the institute is leading the young generations towards the education system where learning is the first priority.
+                Because FUTURE BELONGS TO LEARNERS."
+            </p>
+
+        </div>
+    </div>
+    <div class="contactus">
+        <a href="https://wa.me/message/PBFCCEU6TZ4FM1" target="_blank">
+            <img src="images/walogo.svg" alt="contactus" style="height:50px; width:50px;">
+        </a>
+        <h5>
+            Contact us
+        </h5>
+    </div>
+
+    <div class="map">
+        <a name="c3"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.4806737060976!2d73.24957351504136!3d29.994351481900573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393d6fcc0494a46f%3A0x17a2f6cfbdca4fa2!2sFocus%20Science%20Academy%20(Bahawalnagar)!5e0!3m2!1sen!2s!4v1657362357263!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></a>
+    </div>
+    <div class="empty">
+          
+    </div>
+
+    <div class="ao">
+        <a href="#">
+            <img src="images/ao.png" alt="Admission open" style="height:80px; width:80px;" >
+        </a>
+    </div>
+   <script>
+
+   document.getElementById('menuu').addEventListener('click',()=>{
+    document.getElementById('nav').style.display='unset';
+    document.getElementById('menuu').style.display='none';
+
+    })
+
+    document.getElementById('crs').addEventListener('click',()=>{
+    document.getElementById('nav').style.display='none';
+    document.getElementById('menuu').style.display='unset';
+    })
+if(screen.width<650){
+    document.getElementById('about').addEventListener('click',()=>{
+    document.getElementById('nav').style.display='none';
+    document.getElementById('menuu').style.display='unset';
+    })
+    document.getElementById('about1').addEventListener('click',()=>{
+    document.getElementById('nav').style.display='none';
+    document.getElementById('menuu').style.display='unset';
+    })
+    document.getElementById('about2').addEventListener('click',()=>{
+    document.getElementById('nav').style.display='none';
+    document.getElementById('menuu').style.display='unset';
+    })
+}
+   </script>
+</body>
+</html>
